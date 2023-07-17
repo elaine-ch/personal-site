@@ -1,0 +1,13 @@
+/*
+.button:hover{
+    background-color: #a8a8a8;
+}
+*/
+
+a{
+    color:black;
+}
+
+img:hover{
+    filter: contrast(0%);
+}
