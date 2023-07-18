@@ -22,3 +22,7 @@ a.text{
 a.text:hover{
     font-size: 3vw;
 }
+
+.copyright {
+    font-size: 1vw;
+}
