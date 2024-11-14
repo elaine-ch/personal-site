@@ -11,3 +11,11 @@ a{
 img:hover{
     filter: contrast(0%);
 }
+
+img.normal:hover{
+    filter: none;
+}
+
+.proj-name{
+    color: white;
+}

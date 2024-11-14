@@ -26,3 +26,20 @@ a.text:hover{
 .copyright {
     font-size: 1vw;
 }
+
+.copyright2 {
+    font-size: 1vw;
+}
+
+a.repo-link{
+    font-size: 1vw;
+}
+
+p.description {
+    font-size: 1.25vw;
+}
+
+p.label {
+    font-size: 1vw;
+    font-style: italic;
+}

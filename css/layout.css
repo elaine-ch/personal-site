@@ -19,6 +19,15 @@ div.center{
     padding: 10px;
 }
 
+div.long{
+    display: grid;
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
 #projects{
     height: 70%;
 }
@@ -73,6 +82,13 @@ img{
     text-align: center;
 }
 
+.copyright2{
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
 #proj-header{
     margin: 0px 0px 20px 0px;
 }
@@ -96,10 +112,25 @@ div.table{
 .bkgd-img{
     height: 100%;
     width: 100%;
-    background-image: url("../images/boba.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#proj1{
+    background-image: url("../images/raytracer_icon.png");
+}
+
+#proj2{
+    background-color: black;
+}
+
+#proj3{
+    background-color: black;
+}
+
+#proj4{
+    background-color: black;
 }
 
 .entry:hover .bkgd-img {
@@ -115,9 +146,20 @@ div.table{
     text-align: center;
 }
 
-#home-button{
+.home-button{
     position:absolute;
     bottom: 0px;
     width: 100%;
     text-align: center;
+}
+
+.home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.repo-link{
+    justify-content: center;
 }
